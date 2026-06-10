@@ -22,7 +22,7 @@ Technologies Used
 
 Live Demo
 
-🔗 [Insert Live Demo Link]
+🔗 https://munachitech.github.io/Smart-Task-Manager-Pro/
 
 Project Overview
 
@@ -42,7 +42,7 @@ Installation
 
 1. Clone the repository:
 
-git clone https://github.com/munachitech/smart-task-manager-pro.git
+git clone https://github.com/munachitech/Smart-Task-Manager-Pro.git
 
 2. Open the project folder.
 
@@ -62,6 +62,7 @@ Madumelu Florish Munachimso
 
 GitHub: https://github.com/munachitech
 
-Portfolio: [Insert Portfolio Link]
+Portfolio: https://munachitech.github.io/Smart-Task-Manager-Pro/
+
 
 Email: [munachi3127@gmail.com]
