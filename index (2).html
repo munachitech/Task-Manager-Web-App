@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Task Manager Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>Smart Task Manager</h1>
+      <button onclick="toggleTheme()">🌙</button>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="taskInput" placeholder="Enter a task">
+
+      <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <input type="text" id="search" placeholder="Search tasks..." onkeyup="renderTasks()">
+
+    <div class="filters">
+      <button onclick="setFilter('all')">All</button>
+      <button onclick="setFilter('active')">Active</button>
+      <button onclick="setFilter('done')">Completed</button>
+    </div>
+
+    <p id="counter"></p>
+
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
